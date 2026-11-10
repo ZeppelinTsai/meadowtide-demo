@@ -1,0 +1,761 @@
+{
+ "_說明": "動作庫：debug-character 頁「動作庫」下拉讀這份。file 相對於這個資料夾；rig=mixamo 用 mixamorig 骨頭名稱重定向、ual 走 UAL 骨架(pelvis/clavicle_l…)。加新動作：mixamo 用 scripts/extract-animation-clips.py 抽成單檔放 mixamo/，再加一筆。",
+ "clips": [
+  {
+   "id": "idle",
+   "clip": "idle",
+   "file": "mixamo/idle.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "standing_relax",
+   "clip": "standing_relax",
+   "file": "mixamo/standing_relax.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "look_around",
+   "clip": "look_around",
+   "file": "mixamo/look_around.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "bow",
+   "clip": "bow",
+   "file": "mixamo/bow.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "afraid",
+   "clip": "afraid",
+   "file": "mixamo/afraid.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "agree",
+   "clip": "agree",
+   "file": "mixamo/agree.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "run",
+   "clip": "run",
+   "file": "mixamo/run.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "jump_down",
+   "clip": "jump_down",
+   "file": "mixamo/jump_down.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "jump",
+   "clip": "jump",
+   "file": "mixamo/jump.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "wait",
+   "clip": "wait",
+   "file": "mixamo/wait.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "sit",
+   "clip": "sit",
+   "file": "mixamo/sit.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "freaky",
+   "clip": "freaky",
+   "file": "mixamo/freaky.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "run_upstairs",
+   "clip": "run_upstairs",
+   "file": "mixamo/run_upstairs.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "walk",
+   "clip": "walk",
+   "file": "mixamo/walk.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "turn",
+   "clip": "turn",
+   "file": "mixamo/turn.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "fold_arms",
+   "clip": "fold_arms",
+   "file": "mixamo/fold_arms.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "scratch",
+   "clip": "scratch",
+   "file": "mixamo/scratch.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／基礎動畫"
+  },
+  {
+   "id": "slash",
+   "clip": "slash.001",
+   "file": "mixamo/slash.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／木匠"
+  },
+  {
+   "id": "afraid-木匠",
+   "clip": "afraid.001",
+   "file": "mixamo/afraid-木匠.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／木匠"
+  },
+  {
+   "id": "walk-木匠",
+   "clip": "walk.001",
+   "file": "mixamo/walk-木匠.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／木匠"
+  },
+  {
+   "id": "wait-木匠",
+   "clip": "wait.001",
+   "file": "mixamo/wait-木匠.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／木匠"
+  },
+  {
+   "id": "釣魚",
+   "clip": "釣魚.001",
+   "file": "mixamo/釣魚.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／木匠"
+  },
+  {
+   "id": "sob",
+   "clip": "sob.001",
+   "file": "mixamo/sob.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／木匠"
+  },
+  {
+   "id": "angry_03",
+   "clip": "angry_03",
+   "file": "mixamo/angry_03.glb",
+   "rig": "mixamo",
+   "group": "Mixamo／憤怒3"
+  },
+  {
+   "id": "UAL1/Crouch_Fwd_Loop",
+   "clip": "Crouch_Fwd_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Crouch_Idle_Loop",
+   "clip": "Crouch_Idle_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Dance_Loop",
+   "clip": "Dance_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Death01",
+   "clip": "Death01",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Driving_Loop",
+   "clip": "Driving_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Fixing_Kneeling",
+   "clip": "Fixing_Kneeling",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Hit_Chest",
+   "clip": "Hit_Chest",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Hit_Head",
+   "clip": "Hit_Head",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Idle_Loop",
+   "clip": "Idle_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Idle_Talking_Loop",
+   "clip": "Idle_Talking_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Idle_Torch_Loop",
+   "clip": "Idle_Torch_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Interact",
+   "clip": "Interact",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Jog_Fwd_Loop",
+   "clip": "Jog_Fwd_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Jump_Land",
+   "clip": "Jump_Land",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Jump_Loop",
+   "clip": "Jump_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Jump_Start",
+   "clip": "Jump_Start",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/PickUp_Table",
+   "clip": "PickUp_Table",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Pistol_Aim_Down",
+   "clip": "Pistol_Aim_Down",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Pistol_Aim_Neutral",
+   "clip": "Pistol_Aim_Neutral",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Pistol_Aim_Up",
+   "clip": "Pistol_Aim_Up",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Pistol_Idle_Loop",
+   "clip": "Pistol_Idle_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Pistol_Reload",
+   "clip": "Pistol_Reload",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Pistol_Shoot",
+   "clip": "Pistol_Shoot",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Punch_Cross",
+   "clip": "Punch_Cross",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Punch_Jab",
+   "clip": "Punch_Jab",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Push_Loop",
+   "clip": "Push_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Roll",
+   "clip": "Roll",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Sitting_Enter",
+   "clip": "Sitting_Enter",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Sitting_Exit",
+   "clip": "Sitting_Exit",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Sitting_Idle_Loop",
+   "clip": "Sitting_Idle_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Sitting_Talking_Loop",
+   "clip": "Sitting_Talking_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Spell_Simple_Enter",
+   "clip": "Spell_Simple_Enter",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Spell_Simple_Exit",
+   "clip": "Spell_Simple_Exit",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Spell_Simple_Idle_Loop",
+   "clip": "Spell_Simple_Idle_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Spell_Simple_Shoot",
+   "clip": "Spell_Simple_Shoot",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Sprint_Loop",
+   "clip": "Sprint_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Swim_Fwd_Loop",
+   "clip": "Swim_Fwd_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Swim_Idle_Loop",
+   "clip": "Swim_Idle_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Sword_Attack",
+   "clip": "Sword_Attack",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Sword_Idle",
+   "clip": "Sword_Idle",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Walk_Formal_Loop",
+   "clip": "Walk_Formal_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL1/Walk_Loop",
+   "clip": "Walk_Loop",
+   "file": "../UAL1_Standard.glb",
+   "rig": "ual",
+   "group": "UAL1"
+  },
+  {
+   "id": "UAL2/Chest_Open",
+   "clip": "Chest_Open",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/ClimbUp_1m",
+   "clip": "ClimbUp_1m",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Consume",
+   "clip": "Consume",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Farm_Harvest",
+   "clip": "Farm_Harvest",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Farm_PlantSeed",
+   "clip": "Farm_PlantSeed",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Farm_Watering",
+   "clip": "Farm_Watering",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Hit_Knockback",
+   "clip": "Hit_Knockback",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Idle_FoldArms_Loop",
+   "clip": "Idle_FoldArms_Loop",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Idle_Lantern_Loop",
+   "clip": "Idle_Lantern_Loop",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Idle_No_Loop",
+   "clip": "Idle_No_Loop",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Idle_Rail_Call",
+   "clip": "Idle_Rail_Call",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Idle_Rail_Loop",
+   "clip": "Idle_Rail_Loop",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Idle_Shield_Break",
+   "clip": "Idle_Shield_Break",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Idle_Shield_Loop",
+   "clip": "Idle_Shield_Loop",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Idle_TalkingPhone_Loop",
+   "clip": "Idle_TalkingPhone_Loop",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/LayToIdle",
+   "clip": "LayToIdle",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Melee_Hook",
+   "clip": "Melee_Hook",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Melee_Hook_Rec",
+   "clip": "Melee_Hook_Rec",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/NinjaJump_Idle_Loop",
+   "clip": "NinjaJump_Idle_Loop",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/NinjaJump_Land",
+   "clip": "NinjaJump_Land",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/NinjaJump_Start",
+   "clip": "NinjaJump_Start",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/OverhandThrow",
+   "clip": "OverhandThrow",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Shield_Dash",
+   "clip": "Shield_Dash",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Shield_OneShot",
+   "clip": "Shield_OneShot",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Slide_Exit",
+   "clip": "Slide_Exit",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Slide_Loop",
+   "clip": "Slide_Loop",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Slide_Start",
+   "clip": "Slide_Start",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Sword_Block",
+   "clip": "Sword_Block",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Sword_Dash",
+   "clip": "Sword_Dash",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Sword_Heavy_Combo",
+   "clip": "Sword_Heavy_Combo",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Sword_Regular_A",
+   "clip": "Sword_Regular_A",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Sword_Regular_A_Rec",
+   "clip": "Sword_Regular_A_Rec",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Sword_Regular_B",
+   "clip": "Sword_Regular_B",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Sword_Regular_B_Rec",
+   "clip": "Sword_Regular_B_Rec",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Sword_Regular_C",
+   "clip": "Sword_Regular_C",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Sword_Regular_Combo",
+   "clip": "Sword_Regular_Combo",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/TreeChopping_Loop",
+   "clip": "TreeChopping_Loop",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Walk_Carry_Loop",
+   "clip": "Walk_Carry_Loop",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Yes",
+   "clip": "Yes",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Zombie_Idle_Loop",
+   "clip": "Zombie_Idle_Loop",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Zombie_Scratch",
+   "clip": "Zombie_Scratch",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  },
+  {
+   "id": "UAL2/Zombie_Walk_Fwd_Loop",
+   "clip": "Zombie_Walk_Fwd_Loop",
+   "file": "ual/UAL2_Standard.glb",
+   "rig": "ual",
+   "group": "UAL2"
+  }
+ ]
+}

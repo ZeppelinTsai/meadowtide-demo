@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="96" viewBox="0 0 111 96">
+  <title>海風牧歌 木質角框（手工重建）</title>
+  <desc>以少量可編輯向量路徑重建的木質 L 型 UI 角框，透明背景。</desc>
+  <defs>
+    <linearGradient id="woodH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5c454"/>
+      <stop offset=".35" stop-color="#c77a20"/>
+      <stop offset=".7" stop-color="#9b5017"/>
+      <stop offset="1" stop-color="#65310f"/>
+    </linearGradient>
+    <linearGradient id="woodV" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6d310e"/>
+      <stop offset=".28" stop-color="#b96819"/>
+      <stop offset=".55" stop-color="#db9630"/>
+      <stop offset="1" stop-color="#743510"/>
+    </linearGradient>
+    <radialGradient id="peg" cx="35%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#f7d778"/>
+      <stop offset=".48" stop-color="#b97a2b"/>
+      <stop offset="1" stop-color="#563017"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1" result="blur"/>
+      <feOffset dx="1" dy="1.5" result="off"/>
+      <feColorMatrix in="off" type="matrix" values="0 0 0 0 0.13 0 0 0 0 0.055 0 0 0 0 0.015 0 0 0 .7 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- main timber silhouette -->
+  <g filter="url(#shadow)" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M8 3 C5 3 3 6 3 10 L3 84 C3 89 6 93 10 93 L19 93 C23 93 25 90 25 86 L25 31 C25 27 28 24 32 24 L101 24 C106 24 109 21 109 17 L109 10 C109 6 106 4 102 4 Z"
+          fill="#3c1b0b" stroke="#241006" stroke-width="2"/>
+    <path d="M10 6 C8 6 7 8 7 11 L7 82 C7 87 9 89 12 89 L17 89 C20 89 21 87 21 83 L21 29 C21 23 25 20 31 20 L99 20 C103 20 105 18 105 15 L105 11 C105 9 103 8 100 8 Z"
+          fill="url(#woodH)" stroke="#7a3b12" stroke-width="1.5"/>
+    <path d="M9 29 C9 23 14 18 20 18 L99 18 C102 18 104 16 105 13 L105 11 C105 9 103 8 100 8 L10 6 C8 6 7 8 7 11 L7 82 C7 86 9 89 12 89 L13 89 L13 36 C13 33 15 30 18 29 Z"
+          fill="url(#woodV)" opacity=".9"/>
+
+    <!-- carved inner bevel -->
+    <path d="M20 23 C18 26 17 29 17 34 L17 84" fill="none" stroke="#efb64a" stroke-width="2.3" opacity=".7"/>
+    <path d="M25 15 C29 13 34 12 41 12 H98" fill="none" stroke="#ffd879" stroke-width="2" opacity=".65"/>
+    <path d="M27 20 H99" fill="none" stroke="#54230b" stroke-width="2" opacity=".8"/>
+
+    <!-- peg -->
+    <circle cx="20" cy="18" r="13" fill="#4c250f" stroke="#291207" stroke-width="1.5"/>
+    <circle cx="20" cy="18" r="10.5" fill="url(#peg)" stroke="#d8a347" stroke-width="1.2"/>
+    <circle cx="20" cy="18" r="5.5" fill="#8a5724" stroke="#4f2c13" stroke-width="1"/>
+    <ellipse cx="17" cy="14" rx="3.2" ry="2.3" fill="#ffe8a0" opacity=".55"/>
+    <circle cx="20" cy="18" r="2.3" fill="#5b3419"/>
+
+    <!-- leaf-scroll carving -->
+    <path d="M25 31 C34 25 44 25 50 29 C55 33 52 39 47 39 C43 39 42 35 44 33 C39 31 35 33 32 37 C28 42 28 49 25 54"
+          fill="none" stroke="#4f260d" stroke-width="4"/>
+    <path d="M25 31 C34 25 44 25 50 29 C55 33 52 39 47 39 C43 39 42 35 44 33 C39 31 35 33 32 37 C28 42 28 49 25 54"
+          fill="none" stroke="#d8902d" stroke-width="1.7"/>
+    <path d="M31 38 C38 38 42 42 40 48 C38 53 31 51 32 46 C33 43 36 43 38 45"
+          fill="none" stroke="#5a2a0d" stroke-width="3"/>
+    <path d="M31 38 C38 38 42 42 40 48 C38 53 31 51 32 46 C33 43 36 43 38 45"
+          fill="none" stroke="#e0a13b" stroke-width="1.2"/>
+    <path d="M26 49 C33 54 33 61 27 66 C23 69 22 75 23 81" fill="none" stroke="#4b220b" stroke-width="3.5"/>
+    <path d="M26 49 C33 54 33 61 27 66 C23 69 22 75 23 81" fill="none" stroke="#d48628" stroke-width="1.3"/>
+    <path d="M27 65 C34 62 37 66 34 70 C31 73 27 70 28 68" fill="#b66b1d" stroke="#4b220b" stroke-width="1.5"/>
+
+    <!-- wood grain and knots -->
+    <path d="M55 12 C67 9 80 14 94 11 M57 17 C70 15 84 18 97 14" fill="none" stroke="#8b4515" stroke-width="1.4" opacity=".75"/>
+    <path d="M61 10 C70 12 76 11 84 9" fill="none" stroke="#ffe084" stroke-width="1" opacity=".6"/>
+    <path d="M13 39 C10 49 15 58 11 69 M18 55 C15 63 19 70 16 81" fill="none" stroke="#71320e" stroke-width="1.5" opacity=".8"/>
+    <ellipse cx="91" cy="14" rx="4.3" ry="2.2" fill="#713712" transform="rotate(-9 91 14)"/>
+    <ellipse cx="91" cy="14" rx="2" ry=".9" fill="#d58b2b" transform="rotate(-9 91 14)"/>
+    <ellipse cx="13" cy="72" rx="2.2" ry="4" fill="#71330f" transform="rotate(8 13 72)"/>
+    <path d="M35 9 l4 2 -3 2 M75 17 l5 -2 4 1 M10 47 l4 -4" fill="none" stroke="#f2b94c" stroke-width="1.2" opacity=".65"/>
+
+    <!-- small chips/highlights -->
+    <path d="M31 7 l4 3 -5 2 M48 17 l4 -3 4 2 M100 9 l3 3 -2 4 M9 84 l4 -3 4 3"
+          fill="none" stroke="#ffe08a" stroke-width="1.2" opacity=".75"/>
+  </g>
+</svg>

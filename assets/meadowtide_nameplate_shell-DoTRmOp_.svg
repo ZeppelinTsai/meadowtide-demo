@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Meadowtide nameplate shell icon</title>
+  <desc id="desc">A clean scalable scallop shell ornament in cream, brass and sea-glass teal.</desc>
+
+  <defs>
+    <linearGradient id="shellFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF4D8"/>
+      <stop offset="0.52" stop-color="#F4D7A2"/>
+      <stop offset="1" stop-color="#D9A95A"/>
+    </linearGradient>
+
+    <linearGradient id="shellShade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF9EA" stop-opacity=".92"/>
+      <stop offset=".62" stop-color="#E8BC73" stop-opacity=".50"/>
+      <stop offset="1" stop-color="#B57A2E" stop-opacity=".28"/>
+    </linearGradient>
+
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2C66E"/>
+      <stop offset=".5" stop-color="#C9923D"/>
+      <stop offset="1" stop-color="#8A5A25"/>
+    </linearGradient>
+
+    <radialGradient id="pearl" cx=".35" cy=".3" r=".75">
+      <stop offset="0" stop-color="#F4FFFF"/>
+      <stop offset=".35" stop-color="#CDEBED"/>
+      <stop offset=".72" stop-color="#7FB9BE"/>
+      <stop offset="1" stop-color="#4F858B"/>
+    </radialGradient>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#5A3C20" flood-opacity=".25"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(25.6 0) scale(0.8 1)">
+
+  <!-- Outer scallop -->
+  <path
+    d="M128 26
+       C114 26 104 34 98 45
+       C86 35 71 37 62 49
+       C51 46 38 52 34 64
+       C22 65 14 75 16 87
+       C5 92 1 105 6 116
+       C-1 126 2 141 12 148
+       C8 160 15 173 27 177
+       C27 190 38 200 51 198
+       C57 211 72 216 84 210
+       C92 224 108 230 121 220
+       L128 230
+       L135 220
+       C148 230 164 224 172 210
+       C184 216 199 211 205 198
+       C218 200 229 190 229 177
+       C241 173 248 160 244 148
+       C254 141 257 126 250 116
+       C255 105 251 92 240 87
+       C242 75 234 65 222 64
+       C218 52 205 46 194 49
+       C185 37 170 35 158 45
+       C152 34 142 26 128 26 Z"
+    fill="url(#shellFill)"
+    stroke="#8B5F2E"
+    stroke-width="6"
+    stroke-linejoin="round"
+    filter="url(#softShadow)"
+  />
+
+  <!-- Inner shell highlight -->
+  <path
+    d="M128 37
+       C114 41 104 52 99 64
+       C89 54 76 53 67 61
+       C56 59 46 67 45 78
+       C33 80 28 91 32 102
+       C22 108 21 121 29 129
+       C24 140 31 152 42 154
+       C41 166 51 176 63 174
+       C69 187 82 192 94 186
+       C102 201 113 207 128 215
+       C143 207 154 201 162 186
+       C174 192 187 187 193 174
+       C205 176 215 166 214 154
+       C225 152 232 140 227 129
+       C235 121 234 108 224 102
+       C228 91 223 80 211 78
+       C210 67 200 59 189 61
+       C180 53 167 54 157 64
+       C152 52 142 41 128 37 Z"
+    fill="url(#shellShade)"
+    opacity=".75"
+  />
+
+  <!-- Ribs -->
+  <g fill="none" stroke="#B7803A" stroke-width="3.2" stroke-linecap="round" opacity=".9">
+    <path d="M128 44 L128 198"/>
+    <path d="M112 48 C111 87 114 145 121 198"/>
+    <path d="M95 56 C98 93 104 150 115 199"/>
+    <path d="M78 66 C85 101 94 153 108 200"/>
+    <path d="M61 78 C72 111 84 158 101 200"/>
+    <path d="M47 93 C61 123 75 164 94 198"/>
+    <path d="M144 48 C145 87 142 145 135 198"/>
+    <path d="M161 56 C158 93 152 150 141 199"/>
+    <path d="M178 66 C171 101 162 153 148 200"/>
+    <path d="M195 78 C184 111 172 158 155 200"/>
+    <path d="M209 93 C195 123 181 164 162 198"/>
+  </g>
+
+  <!-- Small shell texture flecks -->
+  <g fill="#D59B45" opacity=".36">
+    <circle cx="77" cy="92" r="3"/>
+    <circle cx="97" cy="74" r="2.2"/>
+    <circle cx="153" cy="83" r="2.4"/>
+    <circle cx="177" cy="106" r="2.8"/>
+    <circle cx="86" cy="133" r="2.5"/>
+    <circle cx="146" cy="126" r="2"/>
+    <circle cx="111" cy="110" r="1.8"/>
+    <circle cx="164" cy="150" r="2.2"/>
+  </g>
+
+  <!-- Bottom brass flourish -->
+  <g fill="url(#brass)" stroke="#724A22" stroke-width="4" stroke-linejoin="round">
+    <path d="M118 197
+             C104 198 93 205 88 217
+             C84 226 75 231 67 228
+             C59 225 58 214 64 209
+             C69 205 76 207 76 214
+             C76 218 72 220 69 218
+             C72 224 81 219 83 211
+             C87 198 99 190 114 189 Z"/>
+    <path d="M138 197
+             C152 198 163 205 168 217
+             C172 226 181 231 189 228
+             C197 225 198 214 192 209
+             C187 205 180 207 180 214
+             C180 218 184 220 187 218
+             C184 224 175 219 173 211
+             C169 198 157 190 142 189 Z"/>
+    <path d="M118 194 C121 205 123 214 128 224 C133 214 135 205 138 194 Z"/>
+  </g>
+
+  <!-- Pearl -->
+  <circle cx="128" cy="205" r="18" fill="url(#pearl)" stroke="#355F63" stroke-width="5"/>
+  <circle cx="122" cy="198" r="5.5" fill="#FFFFFF" opacity=".78"/>
+  <path d="M116 210 C123 216 135 216 141 208" fill="none" stroke="#DDF7F7" stroke-width="3" stroke-linecap="round" opacity=".65"/>
+  </g>
+</svg>
